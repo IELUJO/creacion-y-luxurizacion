@@ -41,7 +41,7 @@ const professors: Professor[] = [
   {
     name: "Miguel Angel Gardetti",
     role: "Director",
-    company: "Centro de Estudios para el Lujo Sustentable",
+    company: "Centro de Estudios para el Lujo Sustentable, ARGENTINA ",
     image: "https://www.ielujo.com/wp-content/uploads/2021/07/foto_gardetti_0.jpeg",
     link: "https://www.linkedin.com/in/miguel-angel-gardetti-ph-d-992a3316/"
   }
