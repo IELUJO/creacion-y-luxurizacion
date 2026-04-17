@@ -47,7 +47,7 @@ const About: React.FC = () => {
                         </li>
                         <li className="flex gap-3">
                             <Globe className="text-luxury-gold flex-shrink-0" size={20} />
-                            <span className="text-sm text-gray-700">Opción a obtener el título <strong>Master</strong> al cursar este diplomado junto con Luxury Management y Luxury Sales.</span>
+                            <span className="text-sm text-gray-700">Opción a obtener el título <strong>Master en Creación y Gestión de Marcas de Lujo</strong> al cursar este diplomado junto con Luxury Management y Luxury Sales.</span>
                         </li>
                     </ul>
                 </div>
