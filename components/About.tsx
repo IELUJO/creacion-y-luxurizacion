@@ -30,7 +30,7 @@ const About: React.FC = () => {
             
             <FadeIn delay={300}>
               <p className="text-gray-600 mb-6 leading-relaxed font-light">
-                Desde 2017, hemos certificado a más de <strong>400 alumnos en 21 ediciones</strong>. Diseñamos, organizamos e impartimos diplomados certificados sobre creación, gestión y comercialización de marcas de lujo.
+                Desde 2017, hemos certificado a más de <strong>450 alumnos en 22 ediciones</strong>. Diseñamos, organizamos e impartimos diplomados certificados sobre creación, gestión y comercialización de marcas de lujo.
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed font-light">
                 Este programa da respuesta a las necesidades de profesionales, empresarios y emprendedores que desean adquirir las competencias necesarias para crear, transformar, vender y gestionar con éxito marcas que no lo son en marcas de lujo, tanto artículos como servicios.
