@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
 
         <FadeIn delay={600}>
           <p className="text-xl md:text-2xl font-light tracking-wide mb-10 text-gray-200">
-            2ª generación 2026
+            2026
           </p>
         </FadeIn>
 
