@@ -37,7 +37,7 @@ const modulesData: ModuleItem[] = [
   },
   {
     id: 4,
-    title: "Storytelling: Creación de Historias de Marca",
+    title: "Storytelling: creación de historias de marca",
     subtopics: [
       "Identidad de marca y creación de valor.",
       "Evolucionando del storytelling al storyliving.",
