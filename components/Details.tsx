@@ -24,8 +24,8 @@ const Details: React.FC = () => {
                     <Calendar className="text-luxury-gold mt-1" />
                     <div>
                         <h4 className="font-bold text-lg">Fechas</h4>
-                        <p className="text-gray-400 font-light">Inicio: 30 de mayo 2026</p>
-                        <p className="text-gray-400 font-light">Final: 22 de agosto 2026</p>
+                        <p className="text-gray-400 font-light">Inicio: 6 de junio 2026</p>
+                        <p className="text-gray-400 font-light">Final: 29 de agosto 2026</p>
                         <p className="text-gray-400 text-sm mt-1 italic">9 sábados de 8:00 A.M. a 3:00 P.M. más 2 sesiones individuales de mentoring de 1 h</p>
                     </div>
                 </div>
