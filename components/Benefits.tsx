@@ -52,7 +52,7 @@ const Benefits: React.FC = () => {
         <FadeIn delay={500}>
             <div className="mt-16 text-center">
                 <p className="text-xl font-serif italic text-luxury-goldLight">
-                    "Valoración media de 9.46 /10 en cuestionario anónimo por nuestros alumnos."
+                    "Valoración media de 9.46/10 otorgada en cuestionario anónimo por los alumnos de las 22 ediciones de nuestros diplomados."
                 </p>
             </div>
         </FadeIn>
