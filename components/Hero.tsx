@@ -7,9 +7,9 @@ const Hero: React.FC = () => {
     <section id="hero" className="relative h-screen min-h-[800px] w-full flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://www.ielujo.com/wp-content/uploads/2025/12/IMG-20250906-WA0009.jpg" 
-          alt="Luxury Architecture" 
+        <img
+          src="/hero.jpg"
+          alt="Materiales nobles: mármol, latón y ámbar"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-luxury-navy/60 mix-blend-multiply"></div>

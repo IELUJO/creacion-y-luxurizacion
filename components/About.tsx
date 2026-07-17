@@ -11,9 +11,9 @@ const About: React.FC = () => {
           <FadeIn>
             <div className="relative">
                 <div className="absolute -top-4 -left-4 w-24 h-24 border-t-2 border-l-2 border-luxury-gold"></div>
-                <img 
-                    src="https://www.ielujo.com/wp-content/uploads/2025/12/IMG_20221001_090923-scaled.jpg" 
-                    alt="Luxury Lecture Hall" 
+                <img
+                    src="/instituto.jpg"
+                    alt="Artesano puliendo una pieza de alta joyería"
                     className="w-full h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 border-b-2 border-r-2 border-luxury-gold"></div>
