@@ -13,20 +13,19 @@ const Details: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-24 items-center">
           <FadeIn>
             <h2 className="font-serif text-4xl mb-8 leading-tight">
-              Detalles del <br /><span className="text-luxury-gold">Diplomado</span>
+              Detalles del <br /><span className="text-luxury-gold">Programa</span>
             </h2>
             <p className="text-gray-300 font-light mb-8 text-lg">
                 Una experiencia educativa exclusiva, diseñada para que el alumno salga con su plan de negocio validado bajo el brazo. Listo para ponerse en marcha y alcanzar su sueño.
             </p>
-            
+
             <div className="space-y-6">
                 <div className="flex items-start gap-4">
                     <Calendar className="text-luxury-gold mt-1" />
                     <div>
-                        <h4 className="font-bold text-lg">Fechas</h4>
-                        <p className="text-gray-400 font-light">Inicio: 6 de junio 2026</p>
-                        <p className="text-gray-400 font-light">Final: 29 de agosto 2026</p>
-                        <p className="text-gray-400 text-sm mt-1 italic">9 sábados de 8:00 A.M. a 3:00 P.M. más 2 sesiones individuales de mentoring de 1 h</p>
+                        <h4 className="font-bold text-lg">Inicio</h4>
+                        <p className="text-gray-400 font-light">En el momento que el alumno decide</p>
+                        <p className="text-gray-400 text-sm mt-1 italic">Acceso total por 12 meses, disponible 24/7</p>
                     </div>
                 </div>
 
@@ -34,8 +33,8 @@ const Details: React.FC = () => {
                     <Clock className="text-luxury-gold mt-1" />
                     <div>
                         <h4 className="font-bold text-lg">Duración & Modalidad</h4>
-                        <p className="text-gray-400 font-light">80 horas</p>
-                        <p className="text-gray-400 font-light">Online en vivo (9 sesiones + 2 mentorías)</p>
+                        <p className="text-gray-400 font-light">50 horas de clases en video (10 módulos)</p>
+                        <p className="text-gray-400 font-light">Online a tu ritmo, más 2 mentorías individuales</p>
                     </div>
                 </div>
 
@@ -43,7 +42,7 @@ const Details: React.FC = () => {
                     <DollarSign className="text-luxury-gold mt-1" />
                     <div>
                         <h4 className="font-bold text-lg">Inversión</h4>
-                        <p className="text-gray-400 font-light">$ 60,000 MXN (IVA incluido)</p>
+                        <p className="text-gray-400 font-light">$ 38,000 MXN (IVA incluido)</p>
                         <p className="text-xs text-luxury-goldLight mt-1">* Facilidades de pago disponibles</p>
                     </div>
                 </div>
@@ -52,12 +51,12 @@ const Details: React.FC = () => {
 
           <FadeIn delay={200}>
             <div className="bg-white/5 backdrop-blur-md border border-white/10 p-10 text-center">
-                <h3 className="font-serif text-2xl mb-6">Reserva tu lugar</h3>
+                <h3 className="font-serif text-2xl mb-6">Inscríbete ahora y luxuriza tu marca</h3>
                 <p className="text-sm text-gray-300 mb-8 font-light">
-                    El cupo es limitado para garantizar la calidad de las mentorías personalizadas.
+                    Empiezas cuando tú decides. Acceso inmediato a la plataforma y a tus dos sesiones de consultoría individual.
                 </p>
-                <a 
-                    href="https://wa.me/525561039849?text=les%20solicito%20m%C3%A1s%20informaci%C3%B3n%20del%20Diplomado%20Creaci%C3%B3n%20de%20marcas%20de%20Lujo%20y%20Procesos%20de%20Luxurizaci%C3%B3n%20por%20este%20medio"
+                <a
+                    href="https://wa.me/525561039849?text=les%20solicito%20m%C3%A1s%20informaci%C3%B3n%20del%20Programa%20Ejecutivo%20en%20Luxurizaci%C3%B3n%20y%20Creaci%C3%B3n%20de%20Marcas%20de%20Lujo%20por%20este%20medio"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full bg-luxury-gold hover:bg-white hover:text-luxury-navy text-white font-bold py-4 px-8 uppercase tracking-widest transition-all duration-300 mb-4"
@@ -65,7 +64,7 @@ const Details: React.FC = () => {
                     Contactar Admisiones
                 </a>
                 <p className="text-xs text-gray-500">
-                    Certificación oficial U. Anáhuac e IELujo
+                    Certificación del Instituto Europeo del Lujo
                 </p>
             </div>
           </FadeIn>

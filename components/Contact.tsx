@@ -2,10 +2,10 @@ import React from 'react';
 import { Mail, MessageCircle, Globe } from 'lucide-react';
 
 const Contact: React.FC = () => {
-  const whatsappMessage = encodeURIComponent("Deseo más información sobre programa, profesores y facilidades de pago del Diplomado Creación de Marcas de Lujo y Procesos de Luxurización que comienza el 30 de mayo de 2026");
-  
-  const emailSubject = encodeURIComponent("Información sobre el Diplomado Creación de Marcas de Lujo y Procesos de Luxurización");
-  const emailBody = encodeURIComponent("Deseo más información sobre programa, profesores y facilidades de pago del Diplomado Creación de Marcas de Lujo y Procesos de Luxurización que comienza el 30 de mayo de 2026");
+  const whatsappMessage = encodeURIComponent("Deseo más información sobre programa, profesores y facilidades de pago del Programa Ejecutivo en Luxurización y Creación de Marcas de Lujo");
+
+  const emailSubject = encodeURIComponent("Información sobre el Programa Ejecutivo en Luxurización y Creación de Marcas de Lujo");
+  const emailBody = encodeURIComponent("Deseo más información sobre programa, profesores y facilidades de pago del Programa Ejecutivo en Luxurización y Creación de Marcas de Lujo");
 
   return (
     <footer id="contact" className="bg-white pt-24 pb-12">

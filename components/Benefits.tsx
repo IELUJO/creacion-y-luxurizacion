@@ -16,13 +16,13 @@ const Benefits: React.FC = () => {
     },
     {
       icon: <UserCheck size={32} />,
-      title: "Mentorías Individualizadas",
-      desc: "Te guiaremos para desarrollar tu plan de negocio exitoso a través de una guia de creación y transformación acompañada por el consejo experto de un mentor."
+      title: "Consultoría Individual",
+      desc: "2 sesiones de mentoría uno a uno para someter tu proyecto a una revisión directiva rigurosa: evaluamos tu avance, corregimos estrategias comerciales y blindamos tu modelo con base en más de 20 proyectos reales."
     },
     {
       icon: <Video size={32} />,
-      title: "Flexibilidad & Networking",
-      desc: "9 Clases  + acceso 24/7 a grabaciones. Networking poderoso con alumnos y profesores para alcanzar tus sueños."
+      title: "Flexibilidad Total",
+      desc: "50 horas de clases en video repartidas en 10 módulos, a tu ritmo y en una plataforma digital personalizada. Acceso 24/7 durante 12 meses: empiezas cuando tú decides."
     }
   ];
 

@@ -53,8 +53,11 @@ const Faculty: React.FC = () => {
       <div className="container mx-auto px-6">
         <FadeIn>
             <div className="mb-12">
-                <h2 className="text-luxury-navy font-serif text-4xl mb-4">Profesorado de Élite</h2>
-                <div className="h-[2px] w-20 bg-luxury-gold"></div>
+                <h2 className="text-luxury-navy font-serif text-4xl mb-4">Profesorado de Élite Experto en el Sector del Lujo</h2>
+                <div className="h-[2px] w-20 bg-luxury-gold mb-6"></div>
+                <p className="text-gray-600 font-light max-w-2xl">
+                    Aprenderás de directivos que han forjado estrategias en las casas internacionales más exitosas del mercado.
+                </p>
             </div>
         </FadeIn>
 

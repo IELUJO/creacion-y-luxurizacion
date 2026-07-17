@@ -22,10 +22,10 @@ const Navbar: React.FC = () => {
   };
 
   const navLinks = [
-    { name: 'El Diplomado', id: 'about' },
+    { name: 'El Programa', id: 'about' },
     { name: 'Beneficios', id: 'benefits' },
     { name: 'Profesorado', id: 'faculty' },
-    { name: 'Programa', id: 'syllabus' },
+    { name: 'Temario', id: 'syllabus' },
     { name: 'Detalles', id: 'details' },
     { name: 'Contacto', id: 'contact' },
   ];
@@ -59,14 +59,6 @@ const Navbar: React.FC = () => {
               </button>
             ))}
           </div>
-          {/* Anahuac Logo */}
-          <div className="pl-6">
-             <img 
-                src="https://www.ielujo.com/wp-content/uploads/2025/12/Logo-Qnahuac-Mexico-sin-fondo-c.png" 
-                alt="Universidad Anáhuac" 
-                className={`h-10 w-auto object-contain transition-all duration-300 ${!isScrolled ? 'brightness-0 invert' : ''}`} 
-            />
-          </div>
         </div>
 
         {/* Mobile Menu Button */}
@@ -87,13 +79,6 @@ const Navbar: React.FC = () => {
               {link.name}
             </button>
           ))}
-          <div className="pt-6 border-t border-gray-100">
-             <img 
-                src="https://www.ielujo.com/wp-content/uploads/2025/12/Logo-Qnahuac-Mexico-sin-fondo-c.png" 
-                alt="Universidad Anáhuac" 
-                className="h-10 w-auto object-contain" 
-            />
-          </div>
         </div>
       )}
     </nav>

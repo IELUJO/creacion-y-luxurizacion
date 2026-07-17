@@ -145,9 +145,9 @@ const Syllabus: React.FC = () => {
         <FadeIn>
             <div className="text-center mb-16">
                 <h2 className="text-luxury-gold uppercase tracking-widest text-sm font-bold mb-4">Estructura Académica</h2>
-                <h3 className="font-serif text-4xl text-luxury-navy mb-6">Módulos del Diplomado</h3>
+                <h3 className="font-serif text-4xl text-luxury-navy mb-6">Módulos del Programa</h3>
                 <p className="text-gray-600 font-light max-w-2xl mx-auto">
-                    Una formación estructurada en 10 módulos intensivos para cubrir todas las áreas críticas del negocio del lujo.
+                    50 horas de clase en video estructuradas en 10 módulos, para cubrir todas las áreas críticas del negocio del lujo.
                 </p>
             </div>
         </FadeIn>
